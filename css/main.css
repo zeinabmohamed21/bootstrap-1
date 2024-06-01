@@ -1,0 +1,111 @@
+body{
+    font-family: "Poetsen One", sans-serif;
+    box-sizing: border-box;
+}
+.navbar{
+   width: 100%; 
+   z-index: 10; 
+}
+.search{
+    border-left: 1px solid white;
+    color: white;
+    font-size: 20px;
+}
+.second-btn{
+    width: 80px;
+}
+.container-fluid{
+    height: 100vh;
+    background-image: url(../images/block-4.jpg);
+    background-size: cover;
+    
+}
+.div-1{
+    border-left: 3px solid white;
+    margin-right: 10px;
+    padding-left: 10px;
+}
+h2{
+    font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.hr-1{
+    width: 120px;
+    height: 3px;
+    background-color:#4F6F52;
+    margin: auto;
+  }
+  .card-one{
+    box-shadow: 1px 1px 15px 5px lightgray;
+    position: relative;
+  }
+  .card-one::after{
+    position: absolute;
+    content:"";
+    width: 0;
+    height: 0;
+    top:0;
+    right:0;
+    background-color: black;
+    opacity: 0;
+    transition: 1s;
+ }
+ .card-one:hover::after{
+    width: 100%;
+     height: 100%;
+     opacity: 0.5;
+ }
+
+.div-2{
+    height: 120px;
+}
+ .div-3{
+    min-height: 100vh;
+    /* background-image: url(../images/block100.jpg);
+    background-size: cover; */
+ }
+ .div-4{
+    min-height: 450px;
+     
+    margin-top: 120px;
+ }
+ 
+ h4 , h3{
+    font-family: "Poetsen One", sans-serif;
+    font-style: italic;
+ }
+ .card-two{
+    width: 100%;
+    min-height: 400px;
+ }  
+ .hr-2{
+    width: 120px;
+    height: 3px;
+    background-color:#4F6F52;
+    
+ }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
